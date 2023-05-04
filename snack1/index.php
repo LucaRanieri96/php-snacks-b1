@@ -23,6 +23,8 @@ Olimpia Milano - Cantù | 55-60 */
     <title>Document</title>
 </head>
 <body>
-    
+    <?php foreach ($matches as $match) : ?>
+        <p><?= $match[0] . " - " . $match[1] . " | " . $match[2] . "-" . $match[3] . "<br>"; ?> </p>
+    <?php endforeach; ?>
 </body>
 </html>
