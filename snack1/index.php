@@ -2,7 +2,16 @@
 Olimpia Milano - Cantù | 55-60 */
 
 <?php 
+    $matches = [
+        ["Milano", "Cantù",44,107],
+        ["Atlanta Hawks", "Boston Celtics",78,56],
+        ["Miami Heat", "Brooklyn Nets",23,45],
+        ["Toronto Raptors", "Indiana Pacers",90,78],
+    ];   
 
+    foreach ($matches as $match) {
+        echo $match[0] . " - " . $match[1] . " | " . $match[2] . "-" . $match[3] . "<br>";
+      }
 ?>
 
 <!DOCTYPE html>
